@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 
-body{
+body {
     background-size: cover;
     background-image: url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg);
     display: flex;
@@ -28,16 +28,16 @@ header {
 }
 
 
-.bandeira{
+.bandeira {
     padding-right: 8px;
     align-items: end;
 }
 
-#bandeira{
+#bandeira {
     width: 85px;
 }
 
-.botoes{
+.botoes {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -52,61 +52,61 @@ header {
     border: 2px solid black;
 }
 
-.botoes a:hover{
+.botoes a:hover {
     background-color: rgb(112, 180, 180);
 }
+
 /* FINAL DO HEADER */
 
-h1{
+h1 {
     text-align: center;
     color: rgb(0, 0, 0);
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 3%;
 }
 
-main div{
+main div {
     display: flex;
     flex-direction: column;
     text-align: center;
 
 }
 
-main .conteudo div table{
+main .conteudo div table {
     background-color: rgb(170, 170, 170);
     text-align: left;
 
 }
 
-.conteudo{
+.conteudo {
     text-align: center;
     justify-content: center;
     margin: 2rem 0rem;
     padding: 0px 0px;
 }
 
-.conteudo div{
+.conteudo div {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(0, 0, 0);
     margin: 0rem 24rem;
-    height: 22rem;
+    height: 25rem;
     background-color: rgba(127, 255, 212, 0.508);
     border-radius: 30px;
 }
 
 
 
-.vacuo{
+.vacuo {
     padding: 2r;
 }
 
-footer{
+footer {
     background-color: rgb(80, 94, 198);
     height: 2.1rem;
     display: flex;
@@ -114,7 +114,7 @@ footer{
     justify-content: space-around;
 }
 
-footer a:hover{
+footer a:hover {
     background-color: aqua;
     border: 1px solid black;
     border-radius: 12px;
