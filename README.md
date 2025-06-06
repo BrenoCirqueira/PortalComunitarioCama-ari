@@ -14,4 +14,4 @@ Utilizei HTML, criando um arquivo para cada página;
 Organizei o CSS separadamente por página, garantindo maior clareza e facilitando futuras manutenções e melhorias no código.
 
 Esse é apenas o começo da minha caminhada na área, mas ver esse primeiro passo concretizado me motiva a continuar aprendendo e evoluindo.
-![image](https://github.com/user-attachments/assets/a9ded964-a426-4b5c-8506-9fd5be96db31)
+![image](https://github.com/user-attachments/assets/e3832f61-4180-40a4-8170-a7276536db72)
