@@ -73,7 +73,6 @@ main div{
     display: flex;
     flex-direction: column;
     text-align: center;
-
 }
 
 main .conteudo div table{
@@ -107,7 +106,8 @@ main .conteudo div table{
 
 
 .vacuo{
-    padding: 2r;
+    padding: 2rem;
+    background-color: brown;
 }
 
 footer{
