@@ -5,12 +5,13 @@
     text-decoration: none;
 }
 
-body{
+body {
     background-size: cover;
     background-image: url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg);
     display: flex;
     flex-direction: column;
 }
+
 
 /* INICIO DO HEADER */
 header {
@@ -19,6 +20,7 @@ header {
     align-items: center;
     gap: 40px;
     justify-content: space-between;
+
 }
 
 
@@ -28,16 +30,16 @@ header {
 }
 
 
-.bandeira{
+.bandeira {
     padding-right: 8px;
     align-items: end;
 }
 
-#bandeira{
+#bandeira {
     width: 85px;
 }
 
-.botoes{
+.botoes {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -52,62 +54,80 @@ header {
     border: 2px solid black;
 }
 
-.botoes a:hover{
+.botoes a:hover {
     background-color: rgb(112, 180, 180);
 }
+
 /* FINAL DO HEADER */
 
-h1{
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-main{
+main {
     display: flex;
     justify-content: center;
+    background-color: #8a2be2;
+    min-width: 100vh;
+}
+
+.tudo {
+    margin-top: 2rem;
     flex-direction: column;
-
+    gap: 4rem;
 }
 
-main div{
-    display: flex;
-    flex-direction: column;
+.conteudo {
     text-align: center;
-
+    background-color: aqua;
 }
 
-main .conteudo div table{
-    background-color: rgb(170, 170, 170);
-    text-align: left;
-}
-
-.conteudo div table tr td{
-    width: 300px;;
-    text-align: left;
-}
-
-.conteudo{
-    text-align: center;
-    justify-content: center;
-    margin: 2rem 0rem;
-    padding: 0px 0px;
-}
-
-.conteudo div{
+.conteudo div {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgb(0, 0, 0);
-    margin: 0rem 24rem;
-    height: 25rem;
+    justify-content: space-around;
+    height: 20rem;
+    width: 50rem;
+
+    img {
+        width: 300px;
+        padding: 0px 0px 10px 50px;
+    }
+}
+
+.opcoes {
+    border: 2px solid black;
     background-image: url(./background.jpg);
     border-radius: 30px;
 }
 
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    padding-right: 10px;
+    background-color: transparent;
+    border-radius: 30px;
+
+    tr th {
+        padding-right: 40px;
+        text-align: left;
+    }
+
+    td {
+        text-align: right;
+        text-align: left;
+    }
+}
+
+.cep {
+    text-align: center;
+}
 
 
-.vacuo{
-    padding: 2r;
+.paginas a {
+    padding: 7px 50px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-image: url(./background.jpg);
+
 }
 
 footer{

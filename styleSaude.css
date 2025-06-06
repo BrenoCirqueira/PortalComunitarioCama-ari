@@ -96,7 +96,7 @@ main .conteudo div table {
     border: 1px solid rgb(0, 0, 0);
     margin: 0rem 24rem;
     height: 25rem;
-    background-color: rgba(127, 255, 212, 0.508);
+    background-image: url(./background.jpg);
     border-radius: 30px;
 }
 
