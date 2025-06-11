@@ -10,6 +10,7 @@ body {
     background-image: url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg);
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -129,11 +130,8 @@ table {
     padding: 7px 50px;
     border: 1px solid black;
     border-radius: 12px;
-    background-color: cadetblue;
-}
+    background-image: url(./background.jpg);
 
-.paginas a:hover{
-    background-color: rgb(98, 197, 200);
 }
 
 footer{

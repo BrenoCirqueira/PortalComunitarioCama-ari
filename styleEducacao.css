@@ -111,14 +111,19 @@ main .conteudo div table{
 }
 
 footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     background-color: rgb(80, 94, 198);
     height: 2.1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    a{
-        color: black;
-    }
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        a{
+            color: black;
+        }
+    
 }
 
 footer a:hover{
